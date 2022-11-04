@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#piano {
+    width:100%;
+    height:200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* para centrar el piano en la pantalla */
+    background: black;
+} 
+
+.key { /* tamaño de las teclas */
+    width:14.285%;
+    height:200px;
+    float:left;
+    background: whitesmoke;
+    border:1px solid black;
+    text-align: center;
+    line-height: height 200px;
+    cursor:pointer;
+} 
+
+ .key:hover {/* hover para que se selccionen la tecla según pase el cursor */
+background-color: black;
+color: whitesmoke
+}
