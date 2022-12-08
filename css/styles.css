@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+
 * {
     margin:0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
 
@@ -19,8 +21,9 @@
     height:200px;
     float:left;
     background: rgb(227, 164, 164);
-    border:1px solid black;
+    border:3px solid black;
     text-align: center;
+    font-family: 'Staatliches', cursive; /* fuente de google fonts */
     line-height: height 200px;
     cursor:pointer;
 } 
@@ -28,4 +31,16 @@
  .key:hover {/* hover para que se selccionen la tecla según pase el cursor */
 background-color: black;
 color: whitesmoke
+}
+
+.pressed {
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+h1{
+    text-align:center;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
 }
