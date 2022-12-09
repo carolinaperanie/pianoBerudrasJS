@@ -41,3 +41,4 @@ playBtn6.addEventListener('click', ()=>{
 playBtn7.addEventListener('click', ()=>{
     notaSi.play()
 });
+
